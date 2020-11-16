@@ -1,23 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T16:47:37.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="WG490LkXQy9E96ymgHiY" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T19:11:39.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Moar7AHqfb6V5QM9u51s" version="13.9.7" type="github">
   <diagram id="XmvHBMZiOtnoPBlf1mSg" name="Page-1">
-    <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="811" dy="2022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IGTHkmSc-ror69dx_fyj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.015;entryY=0.168;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IGTHkmSc-ror69dx_fyj-1" target="IGTHkmSc-ror69dx_fyj-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IGTHkmSc-ror69dx_fyj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IGTHkmSc-ror69dx_fyj-1" target="IGTHkmSc-ror69dx_fyj-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="IGTHkmSc-ror69dx_fyj-1" value="RAM 240x240" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="120" width="210" height="280" as="geometry" />
+          <mxGeometry x="30" width="210" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.998;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IGTHkmSc-ror69dx_fyj-2" target="IGTHkmSc-ror69dx_fyj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-37" value="Address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IGTHkmSc-ror69dx_fyj-36">
+          <mxGeometry x="0.2747" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="IGTHkmSc-ror69dx_fyj-2" target="IGTHkmSc-ror69dx_fyj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IGTHkmSc-ror69dx_fyj-2" target="IGTHkmSc-ror69dx_fyj-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="90" />
+              <mxPoint x="470" y="300" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IGTHkmSc-ror69dx_fyj-2" value="DECODER / SPI&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="240" width="200" height="120" as="geometry" />
+          <mxGeometry x="500" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IGTHkmSc-ror69dx_fyj-14" value="DECODER / SPI&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="240" width="200" height="120" as="geometry" />
+          <mxGeometry x="850" y="170" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-20" value="Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="IGTHkmSc-ror69dx_fyj-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="169.90476190476187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-33" value="Data in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IGTHkmSc-ror69dx_fyj-24">
+          <mxGeometry x="-0.1833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="IGTHkmSc-ror69dx_fyj-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240.0000000000001" y="110.05555555555554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-26" value="Write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IGTHkmSc-ror69dx_fyj-25">
+          <mxGeometry x="-0.177" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-22" value="Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="319.9" as="targetPoint" />
+            <mxPoint x="240.0000000000001" y="319.9555555555555" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGTHkmSc-ror69dx_fyj-31" value="Data out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IGTHkmSc-ror69dx_fyj-30">
+          <mxGeometry x="-0.177" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
