@@ -1,1 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T14:23:28.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.9" etag="nrcXPj0pKqH2o0vxleER" type="github"><diagram id="aPI_H-1RadvfTXnAX15h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-17T14:23:39.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="LZnfhPx8_UpbbA6j4f18" version="13.9.9" type="github">
+  <diagram id="aPI_H-1RadvfTXnAX15h" name="Page-1">
+    <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-4" target="Dgx2zzHRoI-7lwmU6aM8-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.80952380952374" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-2" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dgx2zzHRoI-7lwmU6aM8-1">
+          <mxGeometry x="-0.356" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-4" target="Dgx2zzHRoI-7lwmU6aM8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-4" value="Is Chip select&amp;nbsp; high?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-6" value="Read the address sent over the dataline and action bit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-0.0004761904762595748" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-11" target="Dgx2zzHRoI-7lwmU6aM8-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="315" />
+              <mxPoint x="60" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dgx2zzHRoI-7lwmU6aM8-7">
+          <mxGeometry x="-0.129" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="265.1379310344828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-10" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dgx2zzHRoI-7lwmU6aM8-9">
+          <mxGeometry x="-0.3273" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-11" value="Is action bit High" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="225" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-13" target="Dgx2zzHRoI-7lwmU6aM8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-13" value="Send byte at address&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="424" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-18" target="Dgx2zzHRoI-7lwmU6aM8-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="553.9047619047619" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="554" />
+              <mxPoint x="130" y="554" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-15" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dgx2zzHRoI-7lwmU6aM8-14">
+          <mxGeometry x="-0.3044" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-18" target="Dgx2zzHRoI-7lwmU6aM8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-17" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dgx2zzHRoI-7lwmU6aM8-16">
+          <mxGeometry x="-0.3025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-18" value="Is Chip select&amp;nbsp; still high?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="514" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-20" target="Dgx2zzHRoI-7lwmU6aM8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-20" value="Increment address counter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="524" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-21" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="664" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-22" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.215;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-25" target="Dgx2zzHRoI-7lwmU6aM8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-25" value="Send byte from the address" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-28" target="Dgx2zzHRoI-7lwmU6aM8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-28" value="Read byte to address stored in buffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-30" target="Dgx2zzHRoI-7lwmU6aM8-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-30" value="Store address to buffer(old) and increment address&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="554" />
+              <mxPoint x="730" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-32" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dgx2zzHRoI-7lwmU6aM8-31">
+          <mxGeometry x="-0.7797" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Dgx2zzHRoI-7lwmU6aM8-35" target="Dgx2zzHRoI-7lwmU6aM8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-34" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dgx2zzHRoI-7lwmU6aM8-33">
+          <mxGeometry x="0.147" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-35" value="Is Chip select still high?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="514" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dgx2zzHRoI-7lwmU6aM8-36" value="&lt;h1&gt;Explanation&lt;/h1&gt;&lt;p&gt;When the chip select is high the receiver expects the address of the data to be read or sent and an action bit. The Action bit determines if the receiver should send the data from the ram or send data from ram and read data to the ram (compute).&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the case when the action bit is high , the receiver will keep on sending data from the ram whilst incrementing after each sent byte. Only when the CS is cleared will the transmission stop.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;In the case of action bit cleared the receiver will write data from address at location N and write the incoming data at N-1, this process will keep on going until the chip select is cleared.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="10" width="190" height="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
